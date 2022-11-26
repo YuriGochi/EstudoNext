@@ -24,3 +24,13 @@ a {
     background: black;
   }
 }
+
+.main {
+  display: flex;
+  height: auto;
+  margin-right: 200px;
+  margin-left: 200px;
+  justify-content: center;
+  background-color: red;
+  flex-wrap: wrap;
+}

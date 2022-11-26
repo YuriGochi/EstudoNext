@@ -1,0 +1,14 @@
+.slider {
+    overflow: hidden;
+    background-color: pink;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 100%;
+    height: 50px;
+  }
+  .slider_container {
+    display: flex;
+  }
+  .slider_item {
+    flex: 0 0 20%;
+  }
