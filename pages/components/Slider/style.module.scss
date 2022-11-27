@@ -15,6 +15,30 @@
         font-size: 20px;
         font-weight: 500;
         color: rgb(160, 160, 0);
+        border: none;
+        background: none;
+        &:focus {
+          cursor: pointer;
+          background-color: rgba(rgb(255, 0, 0), 0.3);
+        }
       }
     }
   }
+
+  .att {
+    display: flex;
+    font-size: 10px;
+    width: 100%;
+    justify-content: space-around;
+    
+    .date {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .share {
+      display: flex;
+      align-items: center;
+    }
+  }
+

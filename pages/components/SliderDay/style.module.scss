@@ -14,14 +14,28 @@
       margin-left: 10px;
 
       .slider_item {
+        display: block;
         flex: 0 0 15%;
-        font-size: 24px;
         font-weight: 1000;
         color: blue;
+
+        .slider_dia {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          font-size: 36px;
+          justify-content: center;
+          background: none;
+          border: none;
+        }
 
         .slider_semana {
           font-size: 16px;
           color: rgb(165, 165, 0);
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
         }
       }
     }
