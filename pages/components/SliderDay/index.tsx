@@ -3,7 +3,7 @@ import style from './style.module.scss'
 import useEmblaCarousel from 'embla-carousel-react'
 
 const dias = [
-    { dia: '01', key: 'item-1'}, // remember to pass the key prop
+    { dia: '01', key: 'item-1', semana: 'segunda'}, // remember to pass the key prop
     { dia: '02', key: 'item-2'},
     { dia: '03', key: 'item-3'},
     { dia: '04', key: 'item-4'},
@@ -41,13 +41,18 @@ const SliderDay: React.FC = () => {
 
     return(
         <div className={style.slider} ref={emblaRef}>
-        <div className={style.slider_container}>
-        {dias.map((dias) => {
-            return (
-          <div className={style.slider_item}>{dias.dia}</div>
-            )
-        })}
-        </div>
+          <div className={style.slider_container}>
+          {dias.map((dias) => {
+              return (
+                <>
+                  <div className={style.slider_item}>{dias.dia}
+                    <div className={style.slider_semana}>{dias.semana}</div>
+                  </div>
+                  
+                </>
+              )
+          })}
+          </div>
       </div>
     )
 };
