@@ -130,7 +130,7 @@ const Slider: React.FC = () => {
                 })}
             </div>
         </div>
-        <SliderDay />
+
         <div className={style.att}>
             <div className={style.date}>
                 <div>

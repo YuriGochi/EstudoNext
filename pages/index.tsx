@@ -8,10 +8,10 @@ import SliderDay from './components/SliderDay'
 export default function Home() {
   return (
     <>
-    <Header></Header>
-    <main className='main'>
-        <Slider></Slider>
-    </main>
+      <Header></Header>
+      <main className='main'>
+        <SliderDay />
+      </main>
     </>
   )
 }

@@ -17,7 +17,6 @@
         display: block;
         flex: 0 0 15%;
         font-weight: 1000;
-        color: blue;
 
         .slider_dia {
           display: flex;
@@ -27,6 +26,10 @@
           justify-content: center;
           background: none;
           border: none;
+          color: gray;
+        }
+        .slider_dia_habilitado {
+          color: blue;
         }
 
         .slider_semana {
